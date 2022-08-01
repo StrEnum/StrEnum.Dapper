@@ -6,6 +6,9 @@ namespace StrEnum.Dapper
 {
     public static class StrEnumDapper
     {
+        /// <summary>
+        /// Allows Dapper to handle string enums. Make sure that all of the assemblies that contain string enums have been loaded before calling this method.
+        /// </summary>
         public static void UseStringEnums()
         {
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
