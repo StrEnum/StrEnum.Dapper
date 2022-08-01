@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <PackageId>StrEnum.Dapper</PackageId>
+	  <Description>String enum support for Dapper.</Description>
+	  <Authors>Dmitry Khmara</Authors>
+	  <Copyright>Copyright Dmitry Khmara</Copyright>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageTags>StringEnum;String;Enum;Dapper</PackageTags>
+	  <PackageIcon>icon.png</PackageIcon>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryType>git</RepositoryType>
+	  <RepositoryUrl>https://github.com/StrEnum/StrEnum.Dapper</RepositoryUrl>
+
+	  <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StrEnum" Version="[2.0.0,3.0.0)" />
+		<PackageReference Include="Dapper" Version="[2.0.4,3.0.0)" />
+	</ItemGroup>
+
+</Project>
