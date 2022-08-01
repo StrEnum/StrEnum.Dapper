@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrEnum.Dapper", "src\StrEnum.Dapper\StrEnum.Dapper.csproj", "{4EAD0ED5-C75A-4D88-ABB5-07EE66A20D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrEnum.Dapper.UnitTests", "test\StrEnum.Dapper.UnitTests\StrEnum.Dapper.UnitTests.csproj", "{AF3130EA-C828-4F08-AE4F-4AB8851F0AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EAD0ED5-C75A-4D88-ABB5-07EE66A20D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAD0ED5-C75A-4D88-ABB5-07EE66A20D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAD0ED5-C75A-4D88-ABB5-07EE66A20D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAD0ED5-C75A-4D88-ABB5-07EE66A20D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3130EA-C828-4F08-AE4F-4AB8851F0AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3130EA-C828-4F08-AE4F-4AB8851F0AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3130EA-C828-4F08-AE4F-4AB8851F0AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3130EA-C828-4F08-AE4F-4AB8851F0AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6DB25CB-E0A1-4E47-A1AB-3A309C3B821B}
+	EndGlobalSection
+EndGlobal
