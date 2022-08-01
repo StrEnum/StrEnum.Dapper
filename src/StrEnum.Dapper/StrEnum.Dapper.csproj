@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <PackageId>StrEnum.Dapper</PackageId>
@@ -20,4 +20,22 @@
 		<PackageReference Include="Dapper" Version="[2.0.4,3.0.0)" />
 	</ItemGroup>
 
+	<Target Name="SetNuspecProperties" BeforeTargets="GenerateNuspec">
+		<PropertyGroup>
+			<NuspecProperties>$(NuspecProperties);config=$(Configuration)</NuspecProperties>
+			<NuspecProperties>$(NuspecProperties);version=$(PackageVersion)</NuspecProperties>
+		</PropertyGroup>
+		<Message Importance="high" Text="NuspecProperties: $(NuspecProperties)" />
+	</Target>
+
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath=""/>
+		<None Include="..\..\icon.png" Pack="true" PackagePath="" />
+
+		<PackageReference Include="MinVer" Version="3.1.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 </Project>
